@@ -1,0 +1,2 @@
+#!/bin/bash
+sqlite3 /var/www/pastebin/snippet.sqlite "delete from snippet where expiration != creation and expiration < '$( date +"%Y-%m-%d %H:%M:%S" )' "

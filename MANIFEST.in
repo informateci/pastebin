@@ -1,0 +1,2 @@
+recursive-include pastebin/public *
+recursive-include pastebin/templates *
